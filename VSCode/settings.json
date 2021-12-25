@@ -1,0 +1,104 @@
+{
+    // gitから自動でfetchする
+    "git.autofetch": true,
+    // サジェストの表示順の設定
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // mypyの有効化
+    "python.linting.mypyEnabled": true,
+    // docstringの形式
+    "autoDocstring.docstringFormat": "numpy",
+    "editor.formatOnSave": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "JSON-zain.json.autorefresh": true,
+    "editor.largeFileOptimizations": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.startupEditor": "welcomePage",
+    "aws.profile": "profile:systemsoft",
+    "scm.inputFontFamily": "default",
+    "editor.fontFamily": "'Fira Code','Meiryo UI'",
+    "editor.fontLigatures": true,
+    // pythonPathを通す
+    "python.pythonPath": "/bin/python3",
+    "editor.accessibilitySupport": "off",
+    "jupyter.askForKernelRestart": false,
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[vue]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": [
+        "source.organizeImports",
+        "source.fixAll.eslint"
+    ],
+    "files.autoGuessEncoding": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "python.defaultInterpreterPath": "/bin/python3",
+    "editor.renderControlCharacters": true,
+    "cSpell.language": "en",
+    "redhat.telemetry.enabled": false,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "vscodeGoogleTranslate.preferredLanguage": "Japanese",
+    "yaml.schemas": {},
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', Meiryo UI",
+    "json.schemas": [],
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "window.zoomLevel": 1,
+    "security.workspace.trust.untrustedFiles": "open",
+}
+}
